@@ -1,0 +1,21 @@
+GRANT USAGE ON *.* TO 'TRPG_USER'@'%';
+
+GRANT SELECT, INSERT ON `mytrpg`.* TO 'TRPG_USER'@'%';
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON `mytrpg`.`cattack` TO 'TRPG_USER'@'%';
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON `mytrpg`.`cgear` TO 'TRPG_USER'@'%';
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON `mytrpg`.`cinventory` TO 'TRPG_USER'@'%';
+
+GRANT SELECT, INSERT ON `mytrpg`.`user` TO 'TRPG_USER'@'%';
+
+GRANT SELECT, INSERT ON `mytrpg`.`player` TO 'TRPG_USER'@'%';
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON `mytrpg`.`characters` TO 'TRPG_USER'@'%';
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON `mytrpg`.`cspelltalent` TO 'TRPG_USER'@'%';
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON `mytrpg`.`campaign` TO 'TRPG_USER'@'%';
+
+GRANT SELECT, INSERT ON `mytrpg`.`dm` TO 'TRPG_USER'@'%';
